@@ -1,0 +1,31 @@
+# Ignore all directories named 'build'
+build/
+**/build/
+
+# Compiled source
+*.o
+*.so
+*.a
+*.out
+*.exe
+
+# Editor files
+*.swp
+*~
+
+# IDEs
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Other build artifacts
+*.dSYM/
+*.log
